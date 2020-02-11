@@ -1,0 +1,68 @@
+.MainDiv {
+    background-color: red;
+  }
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 90%;
+    max-height: 300px !important;
+}
+  @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+      /* max-width: 1140px; */
+  }
+
+  }
+  @media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+      /* max-width: 960px; */
+  }
+  }
+  @media (min-width: 576px) {
+    .container, .container-sm {
+      max-width: 540px;
+  }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+  }
+  }
+  
+ 
+
+  .div {
+    /* background-color: rgb(240, 244, 247); */
+    border-radius: 15px;
+  }
+  .normalLink {
+    font-size: 18px;
+    color: #33c;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .li {
+    border-radius: 5px;
+    border: 1px solid rgb(235, 230, 230);
+    padding: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .li:hover {
+    background: linear-gradient(green, yellow, yellow, red);
+  }
+  .paraDiv {
+    border: 2px solid rgb(226, 221, 221);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .paraDiv:hover {
+    background-color: rgb(194, 205, 238);
+  }
+  .navItems {
+    border: 1px rgb(226, 221, 221) solid;
+    border-radius: 5px;
+    background-color: rgb(238, 236, 236);
+  }
+  
