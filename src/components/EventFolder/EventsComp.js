@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Calendar from "react-calendar";
-import CarouselComp from './CarouselComp';
+//import CarouselComp from './CarouselComp';
+import './event.css';
+import Carousel from './Carsoule';
 
 class CalenderComp extends Component {
   state = {
@@ -11,11 +13,11 @@ class CalenderComp extends Component {
 
   render() {
     return (
-      <div class="container">
-        <CarouselComp />
-        <br />
-        <hr />
-        <div class="row">
+      <div >
+<Carousel  />
+      <div className="container">
+
+        <div class="row" >
           <div class="col-sm-6">
             <Calendar onChange={this.onChange} value={this.state.date} />
           </div>
@@ -33,7 +35,8 @@ class CalenderComp extends Component {
             </form>
           </div>
         </div>
-      </div>
+        </div>
+        </div>
     );
   }
 }

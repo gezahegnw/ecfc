@@ -4,7 +4,7 @@ import React from "react";
 
 const ministries = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="MainDiv">
         <h3 style={{ fontWeight: "700" }}>
           Three Important Steps On Your Journey

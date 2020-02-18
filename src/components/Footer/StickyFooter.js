@@ -7,16 +7,16 @@ const stickyFooter = () => {
       <StickyFooter
         bottomThreshold={50}
         normalStyles={{
-          backgroundColor: "darkgray",
-          padding: "2rem",
+          backgroundColor: "#b0afab",
+          padding: "3rem",
           width: "100%",
           textAline: "center"
         }}
         stickyStyles={{
-          backgroundColor: "gray",
+          backgroundColor: "#8c8a80",
           padding: "2rem",
           width: "100%",
-          textAline: "center"
+          textAline: "center "
         }}
       >
         Copyright &copy; January 2020: Ethiopian Christian Fellowship Church

@@ -27,7 +27,7 @@ class App extends Component {
         <div className='App'>
           <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-secondary">
             <div className="navbar-brand">
-              {" "}<FontAwesomeIcon icon={faCross} size='3x'/>
+              {" "}<FontAwesomeIcon icon={faCross} size='2x'/>
               Ethiopian Christian Fellowship Church Kansas
               
             </div>
@@ -139,8 +139,10 @@ class App extends Component {
         <div>
           <FooterPage />
         </div>
+        <hr />
         <div>
           <StickyFooter />
+          <br />
         </div>
       </Router>
     );

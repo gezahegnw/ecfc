@@ -1,0 +1,7 @@
+.card-text:hover {
+    color: whitesmoke !important;
+    font-size: 18px !important;
+}
+.col-md-8:hover {
+    background-color: rgb(151, 151, 151);
+}

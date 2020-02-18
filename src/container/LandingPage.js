@@ -1,130 +1,286 @@
 import React, { Component } from "react";
 //import Jumbotron from "react-bootstrap/Jumbotron";
 //import Button from "react-bootstrap/Button";
-import Styles from "./LandingPage.module.css";
+import "./landingPage.css";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+//import { Carousel } from "react-responsive-carousel";
 import Ministries from "../components/Ministry/MinistriesComp";
 //http://www.ecfcks.org/GetImage.ashx?guid=495811e7-ed4d-466c-bef6-affbeb4d2900
 class LandingPage extends Component {
   render() {
     return (
-    <div>
-      <div className="container" >
-        <Carousel
-          autoPlay
-          interval={3000}
-          infiniteLoop
-          showArrows={false}
-          showStatus={false}
-          showIndicators={false}
-          
-        >
-          <div>
-            <img src="/images/image1.jpg" alt="" />
-            <p className="legend">Legend 1</p>
-          </div>
-          <div>
-            <img src="/images/image2.jpg" alt="" />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <img
-              src="/images/image3.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 3</p>
-          </div>
-          <div>
-            <img
-              src="/images/image4.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 4</p>
-          </div>
-          <div>
-            <img
-              src="/images/image5.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 5</p>
-          </div>
-          <div>
-            <img
-              src="/images/image6.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 6</p>
-          </div>
-          <div>
-            <img
-              src="/images/worship-team.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 7</p>
-          </div>
-          <div>
-            <img
-              src="/images/image6.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 8</p>
-          </div>
-          <div>
-            <img
-              src="/images/image6.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 9</p>
-          </div>
-          <div>
-            <img src="/images/image6.jpg" alt="" />
-            <p className="legend">Legend 10</p>
-          </div>
-          <div>
-            <img
-              src="/images/marriage-enrichment.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 11</p>
-          </div>
-          <div>
-            <img
-              src="/images/image6.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 12</p>
-          </div>
-          <div>
-            <img
-              src="/images/image6.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 13</p>
-          </div>
-          <div>
-            <img
-              src="/images/image6.jpg"
-              alt=""
-            />
-            <p className="legend">Legend 14</p>
-          </div>
-          <div>
-            <img
-              src="/images/image6.jpg"
-              alt=" is not found"
-            />
-            <p className="legend">Legend 14</p>
-          </div>
-        </Carousel>
-    </div>
-        <br />
-        <br />
-        <hr />
+      <div>
         <div className="container">
-            <Ministries />
+          <div id="carousel" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage1.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage2.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage3.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage4.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage5.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage6.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* start */}
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage7.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage8.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage9.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage10.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="card mb-3">
+                  <img
+                    className="landing-image"
+                    src="/images/mainpage11.jpg"
+                    alt="Second slide"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title" id='card-title'>Card title</h5>
+                    <p className="card-text" id='card-text'>
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div className="container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <div className="card mb-3">
+                <div className="row no-gutters">
+                  <div className="col-md-4">
+                    <img
+                      src="/images/paster-henoke.jpg"
+                      className="card-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <h4 className="card-title" >Pastor Henock Tsegaye</h4>
 
+                      <h3>Main Pastor</h3>
+                      <p className="card-text" >
+                        Teaching the word of God every Sunday, based on prepared
+                        curriculum, so that they would know if from childhood
+                        and be equipped for. And this is done by understanding
+                        their childhood, showing them love and patience. It will
+                        be given to all children from age 3 to 13. Not only is
+                        teaching children a source of joy, but it is also being
+                        one of the pages in.
+                      </p>
+                      <p className="card-text" >
+                        <small className="text-muted">
+                          Last updated 3 mins ago
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* 1st card closed here */}
+            {/* 2nd card opens here */}
+            <div class="col-sm">
+              <div className="card mb-3">
+                <div className="row no-gutters">
+                  <div className="col-md-4">
+                    <img
+                      src="/images/pastorashenife.jpg"
+                      className="card-img"
+                      alt="..."
+                    />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <h4 className="card-title">KIDIST DAKA</h4>
+                      <h3>Assistant Pastor</h3>
+                      <p className="card-text" >
+                        The Nursery ministry helps parents to attend the Sunday
+                        service properly, by taking care of their infants and
+                        toddlers. Taking care of children, comforting them when
+                        they cry and laughing with them when they laugh
+                        refreshes the soul. Additionally, it helps parents
+                        worship with no distractions and making parents happy is
+                        a good ministry.
+                      </p>
+                      <p className="card-text" >
+                        <small className="text-muted">
+                          Last updated 3 mins ago
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <Ministries />
         </div>
       </div>
     );
