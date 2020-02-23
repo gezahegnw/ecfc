@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import './App.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faCross } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faCross } from '@fortawesome/free-solid-svg-icons';
+import PastorAsefa from './components/Ministry/PastorAsefa';
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import LandingPage from "./container/LandingPage";
@@ -18,7 +19,6 @@ import YouthComp from "./components/Youth/YouthComp";
 import FooterPage from "./components/Footer/FooterComp";
 import WatchComp from "./components/Watch/WatchComp";
 import EventsComp from "./components/EventFolder/EventsComp";
-import StickyFooter from "./components/Footer/StickyFooter";
 
 class App extends Component {
   render() {
@@ -97,6 +97,9 @@ class App extends Component {
                     <Link to={"/familyPre-Registraion"} className="nav-link">
                       Family Pre_Registration
                     </Link>
+                    <Link to={"/pastor-asefa"} className="nav-link">
+                      Dr. Pastor Asefa
+                    </Link>
                   </div>
                 </li>
                 <li className="nav-item">
@@ -134,16 +137,12 @@ class App extends Component {
             <Route path="/contact-us" component={ContactComp} />
             <Route path="/events" component={EventsComp} />
             <Route path="/watch" component={WatchComp} />
+            <Route path="/pastor-asefa" component={PastorAsefa} />
           </Switch>
         </div>
         <div>
           <FooterPage />
-        </div>
-        <hr />
-        <div>
-          <StickyFooter />
-          <br />
-        </div>
+        </div>        
       </Router>
     );
   }

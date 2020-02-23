@@ -92,7 +92,7 @@ const childrenComp = () => {
             <div className="row no-gutters">
               <div className="col-md-4">
                 <img
-                  src="https://picsum.photos/200"
+                  src="/images/emnet.jpg"
                   className="card-img"
                   alt="..."
                 />
@@ -124,7 +124,7 @@ const childrenComp = () => {
             <div className="row no-gutters">
               <div className="col-md-4">
                 <img
-                  src="https://picsum.photos/200"
+                  src="/images/kidist.jpg"
                   className="card-img"
                   alt="..."
                 />
@@ -157,7 +157,7 @@ const childrenComp = () => {
             <div className="row no-gutters">
               <div className="col-md-4">
                 <img
-                  src="https://picsum.photos/200"
+                  src="/images/rahel.jpg"
                   className="card-img"
                   alt="..."
                 />
@@ -189,7 +189,7 @@ const childrenComp = () => {
             <div className="row no-gutters">
               <div className="col-md-4">
                 <img
-                  src="https://picsum.photos/200"
+                  src="/images/menna.jpg"
                   className="card-img"
                   alt="..."
                 />
@@ -221,7 +221,7 @@ const childrenComp = () => {
             <div className="row no-gutters">
               <div className="col-md-4">
                 <img
-                  src="https://picsum.photos/200"
+                  src="/images/tigist.jpg"
                   className="card-img"
                   alt="..."
                 />
@@ -253,7 +253,7 @@ const childrenComp = () => {
             <div className="row no-gutters">
               <div className="col-md-4">
                 <img
-                  src="https://picsum.photos/200"
+                  src="/images/estifanos.jpg"
                   className="card-img"
                   alt="..."
                 />

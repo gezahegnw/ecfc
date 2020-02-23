@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 //import Jumbotron from "react-bootstrap/Jumbotron";
 //import Button from "react-bootstrap/Button";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./landingPage.css";
+import PasterAsefa from '../components/Ministry/PastorAsefa'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 //import { Carousel } from "react-responsive-carousel";
@@ -11,7 +13,7 @@ class LandingPage extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container" style={{marginBottom: 200}}>
           <div id="carousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -256,7 +258,7 @@ class LandingPage extends Component {
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h4 className="card-title">KIDIST DAKA</h4>
+                      <h4 className="card-title">Pastor Ashenafi Zewge</h4>
                       <h3>Assistant Pastor</h3>
                       <p className="card-text" >
                         The Nursery ministry helps parents to attend the Sunday
@@ -279,6 +281,37 @@ class LandingPage extends Component {
             </div>
           </div>
         </div>
+        {/* container */}
+        <div className="container">
+          <div class="row">
+            <div class="col-sm">
+              <div className="card mb-3">
+                <div className="row no-gutters">
+                  <div className="col-md-4">
+                    <Link to=''>
+                    <img
+                      src="/images/asefa.png"
+                      className="card-img"
+                      alt="..."
+                    />
+                    </Link>
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <h4 className="card-title" >Dr. Pastor Assefa Alemu</h4>
+
+                      <p className="card-text" >
+                      የመንፈስ አባቶቻችንን ማክበር በረከትን ለትውልድ ማስተላለፍ ነው.
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+            <hr />
         <div>
           <Ministries />
         </div>
