@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 //import Jumbotron from "react-bootstrap/Jumbotron";
 //import Button from "react-bootstrap/Button";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./landingPage.css";
-import PasterAsefa from '../components/Ministry/PastorAsefa'
+//import PasterAsefa from '../components/Ministry/PastorAsefa'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 //import { Carousel } from "react-responsive-carousel";

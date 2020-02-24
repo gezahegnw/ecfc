@@ -1,0 +1,52 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "MAP_ID": 1,
+        "NAME": "Menna Small Group",
+        "DESCRIPTION": " 1407 W Prairie Ter Olathe, KS 66061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.881397, -94.819130]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MAP_ID": 2,
+        "NAME": "Dr. Girma Small Group ",
+        "DESCRIPTION": "12904 W 125th St Overland Park, KS 66213"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.902946, -94.7381024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MAP_ID": 4,
+        "NAME": "Helina Small Group",
+        "DESCRIPTION": " 11754 Monrovia St Overland Park, KS 66210"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.882508800000004, -94.8011008]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MAP_ID": 6,
+        "NAME": "Kibret small Group",
+        "DESCRIPTION": " 12461 S Pine St Olathe, KS 66061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.883530, -94.818237]
+      }
+    }
+  ]
+}

@@ -13,7 +13,8 @@ const FooterPage = () => {
       <Container
         fluid
         style={{
-          backgroundColor: "#f5f2f2",
+          backgroundColor: "#606263",
+          color: 'white',
           paddingTop: 20,
           paddingBottom: 20
         }}
